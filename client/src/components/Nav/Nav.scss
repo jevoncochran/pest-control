@@ -1,0 +1,86 @@
+.nav {
+  // border: 1px dashed black;
+  height: 20vh;
+  width: 100%;
+}
+
+// Top
+
+.nav-top {
+  //   border: 1px dashed black;
+  height: 8vh;
+  width: 100%;
+  background-color: #011048;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-top-contact-container {
+  //   border: 1px dashed white;
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+}
+
+.nav-top-link-container {
+  display: flex;
+  font-size: 2.8rem;
+}
+
+.nav-top-contact-icon {
+  margin-right: 5%;
+  //   border: 1px dashed white;
+  font-size: 2.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-top-contact-text {
+  //   border: 1px dashed white;
+  display: flex;
+  align-items: center;
+}
+
+.nav-top-contact-number {
+  font-size: 1.8rem;
+  margin-right: 5%;
+}
+
+.nav-top-social-container {
+  //   border: 1px dashed white;
+  width: 12%;
+  display: flex;
+  justify-content: space-between;
+}
+
+// Bottom
+
+.nav-bottom {
+  height: 12vh;
+  //   width: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bottom-logo-container {
+  //   border: 1px dashed black;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  font-size: 3.5rem;
+}
+
+.nav-bottom-links {
+  //   border: 1px dashed black;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.5rem;
+}
