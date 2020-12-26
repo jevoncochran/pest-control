@@ -1,5 +1,5 @@
 .intro-background-container {
-  background-color: #000;
+  background-color: #011048;
   position: relative;
 }
 
@@ -40,4 +40,49 @@
   color: #fff;
   border: none;
   font-size: 1.5rem;
+}
+
+.intro-contact-box-container {
+  height: 18vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+}
+
+.intro-contact-box {
+  background-color: #011048;
+  height: 100%;
+  opacity: 0.9;
+}
+
+.intro-contact-box-text {
+  height: 10vh;
+  // border: 1px dashed white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-contact-box-text-large {
+  font-size: 2.9rem;
+}
+
+.intro-contact-box-number-div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  // border: 1px dashed white;
+  align-items: center;
+  width: 80%;
+}
+
+.intro-contact-box-phone-icon {
+  font-size: 3.8rem;
+  margin-right: 2%;
 }
