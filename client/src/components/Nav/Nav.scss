@@ -1,6 +1,6 @@
 .nav {
   // border: 1px dashed black;
-  height: 20vh;
+  height: 15vh;
   width: 100%;
 }
 
@@ -8,7 +8,7 @@
 
 .nav-top {
   //   border: 1px dashed black;
-  height: 8vh;
+  height: 6vh;
   width: 100%;
   background-color: #011048;
   padding-left: 15%;
@@ -60,7 +60,7 @@
 // Bottom
 
 .nav-bottom {
-  height: 12vh;
+  height: 9vh;
   //   width: 100%;
   margin-left: 15%;
   margin-right: 15%;
@@ -73,7 +73,7 @@
   width: 20%;
   display: flex;
   align-items: center;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .nav-bottom-links {
@@ -88,4 +88,8 @@
 .nav-link {
   text-decoration: none;
   color: #000;
+}
+
+.nav-link:hover {
+  color: #f5931e;
 }

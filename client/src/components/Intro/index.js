@@ -1,5 +1,6 @@
 import React from "react";
 import "./Intro.scss";
+import { AiTwotonePhone } from "react-icons/ai";
 import exterminator from "../../assets/images/exterminator.jpg";
 
 const Intro = () => {
@@ -17,6 +18,20 @@ const Intro = () => {
           </div>
           <div className="intro-btn-container">
             <button className="intro-btn">LEARN MORE</button>
+          </div>
+        </div>
+        <div className="intro-contact-box-container">
+          <div className="intro-contact-box"></div>
+          <div className="intro-contact-box-text">
+            <p className="intro-contact-box-text-large">
+              ALL YOUR PEST CONTROL NEEDS
+            </p>
+            <div className="intro-contact-box-number-div">
+              <div className="intro-contact-box-text-large intro-contact-box-phone-icon">
+                <AiTwotonePhone />
+              </div>
+              <p className="intro-contact-box-text-large">(586) 553-7915</p>
+            </div>
           </div>
         </div>
       </div>
