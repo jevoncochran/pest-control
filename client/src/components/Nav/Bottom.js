@@ -1,5 +1,6 @@
 import React from "react";
 import "./Nav.scss";
+import { NavLink } from "react-router-dom";
 
 const Bottom = () => {
   return (
@@ -8,12 +9,16 @@ const Bottom = () => {
         Knowledgeable Pest Control
       </div>
       <div className="nav-bottom-links">
-        <p>HOME</p>
+        <NavLink className="nav-link" to="/">
+          HOME
+        </NavLink>
         <p>ABOUT US</p>
         <p>APPOINTMENT</p>
         <p>PRICING</p>
         <p>SERVICES</p>
-        <p>CONTACT</p>
+        <NavLink className="nav-link" to="/contact">
+          CONTACT
+        </NavLink>
       </div>
     </div>
   );
