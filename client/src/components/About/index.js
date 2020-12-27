@@ -2,6 +2,7 @@ import React from "react";
 import "./About.scss";
 import pestControl5 from "../../assets/images/pest-control5.png";
 import { GoCheck } from "react-icons/go";
+import ServiceArea from "./ServiceArea";
 
 const About = () => {
   return (
@@ -69,6 +70,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <ServiceArea />
     </div>
   );
 };

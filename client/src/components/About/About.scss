@@ -69,3 +69,32 @@
   align-items: center;
   text-transform: capitalize;
 }
+
+// ServiceArea
+
+.about-service-area {
+  display: flex;
+  border: 1px dashed black;
+  margin-top: 10%;
+  background-color: #011048;
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.about-service-area-headline {
+  font-size: 4rem;
+  color: #fff;
+  text-transform: uppercase;
+  width: 20%;
+  margin-right: 5%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.about-serive-area-img {
+  height: 50vh;
+  border: 2px solid #f5931e;
+  border-radius: 6px;
+}

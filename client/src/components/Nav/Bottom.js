@@ -18,9 +18,6 @@ const Bottom = () => {
         <NavLink className="nav-link" to="/appointment">
           APPOINTMENT
         </NavLink>
-        <NavLink className="nav-link" to="/pricing">
-          PRICING
-        </NavLink>
         <NavLink className="nav-link" to="/services">
           SERVICES
         </NavLink>

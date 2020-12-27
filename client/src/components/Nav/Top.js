@@ -13,8 +13,7 @@ const Top = () => {
             <AiTwotonePhone />
           </div>
           <p className="nav-top-contact-text">
-            <span className="nav-top-contact-number">+1</span>
-            <span className="nav-top-contact-number">586</span>
+            <span className="nav-top-contact-number">(586)</span>
             <span className="nav-top-contact-number">553</span>
             <span className="nav-top-contact-number">7915</span>
           </p>
