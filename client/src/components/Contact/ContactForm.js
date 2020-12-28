@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Contact.scss";
-import { sendInquiry } from "./sendInquiry";
+import { sendInquiry } from "../../globals/sendInquiry";
 
 const ContactForm = () => {
   const [inquiry, setInquiry] = useState({
@@ -18,10 +18,6 @@ const ContactForm = () => {
       [e.target.name]: e.target.value,
     });
   };
-
-  useEffect(() => {
-    console.log("inquiry: ", inquiry);
-  }, [inquiry]);
 
   return (
     <div>
