@@ -27,7 +27,7 @@ const About = () => {
           </p>
         </div>
         <div className="about-text-services-container">
-          <p className="about-text-large">Our services include:</p>
+          <p className="about-text-services-headline about-text-large">Our services include:</p>
           <div className="about-service-li-div">
             <div className="about-service-li-icon">
               <GoCheck />
