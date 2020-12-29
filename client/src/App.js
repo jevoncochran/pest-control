@@ -8,7 +8,7 @@ import About from "./components/About";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App" style={{ width: "100%" }}>
         <Nav />
         <Switch>
           <Route exact path="/" component={Home} />
