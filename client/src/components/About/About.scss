@@ -1,3 +1,5 @@
+$mobile: 900px;
+
 .about {
   //   border: 1px dashed black;
   height: 100vh;
@@ -5,6 +7,7 @@
 }
 
 .about-img-background {
+  // border: 2px solid red;
   background-color: #011048;
   height: 60vh;
   position: relative;
@@ -55,8 +58,8 @@
 }
 
 .about-service-li-div {
+  // border: 1px dashed white;
   display: flex;
-  //   border: 1px solid black;
 }
 
 .about-service-li-icon {
@@ -70,19 +73,70 @@
   text-transform: capitalize;
 }
 
+@media (max-width: $mobile) {
+  .about {
+    height: 200vh;
+    background-color: #011048;
+  }
+
+  .about-img-background {
+    position: static;
+    height: auto;
+  }
+
+  .about-img {
+    height: 60vh;
+    object-fit: cover;
+    background-position: 98% 0%;
+  }
+
+  .about-img-text-container {
+    // border: 1px dashed white;
+    position: static;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 6% 3%;
+  }
+
+  .about-text-large {
+    font-size: 2.5rem;
+  }
+
+  .about-text-services-container {
+    // border: 1px dashed white;
+    width: 100%;
+    height: auto;
+    position: static;
+    padding: 6% 3%;
+    border: none;
+  }
+
+  .about-text-services-headline {
+    margin-bottom: 4%;
+    text-align: center;
+  }
+
+  .about-service-li-div {
+    margin-bottom: 3%;
+  }
+}
+
 // ServiceArea
 
 .about-service-area {
   display: flex;
-  border: 1px dashed black;
+  // border: 1px dashed black;
   margin-top: 10%;
   background-color: #011048;
   justify-content: center;
   padding-top: 3%;
   padding-bottom: 3%;
+  // border: 2px solid white;
 }
 
 .about-service-area-headline {
+  // border: 1px dashed white;
   font-size: 4rem;
   color: #fff;
   text-transform: uppercase;
@@ -93,8 +147,32 @@
   align-items: center;
 }
 
-.about-serive-area-img {
+.about-servive-area-img {
   height: 50vh;
   border: 2px solid #f5931e;
   border-radius: 6px;
+}
+
+@media (max-width: $mobile) {
+  .about-service-area {
+    // display: none;
+    position: static;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-service-area-headline {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    height: auto;
+    padding: 3% 6%;
+  }
+
+  .about-servive-area-img {
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+  }
 }

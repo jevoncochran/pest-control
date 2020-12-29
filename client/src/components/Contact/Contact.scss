@@ -144,8 +144,22 @@ $mobile: 900px;
   .contact {
     padding: 8% 4%;
   }
+
+  .contact-form-label {
+    font-size: 17px;
+  }
+
   .contact-name-input-div {
     flex-direction: column;
+  }
+
+  .contact-input {
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .contact-msg-input {
+    height: 80px;
   }
 
   .contact-input-name {
