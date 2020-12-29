@@ -125,6 +125,10 @@ $mobile: 900px;
   display: hidden;
 }
 
+.nav-mobile-menu {
+  display: hidden;
+}
+
 @media (max-width: $mobile) {
   .nav-bottom {
     // border: 1px dashed black;
