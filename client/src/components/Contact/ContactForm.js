@@ -77,9 +77,14 @@ const ContactForm = () => {
             onChange={handleChanges}
           />
         </div>
-        <button type="submit" className="contact-submit-btn">
+        <button type="submit" className="contact-submit-btn submit-button-wide">
           Submit
         </button>
+        <div className="contact-submit-btn-container">
+          <button type="submit" className="contact-submit-btn">
+            Submit
+          </button>
+        </div>
       </form>
     </div>
   );
