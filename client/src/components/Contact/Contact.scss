@@ -1,3 +1,5 @@
+$mobile: 900px;
+
 // index.js
 
 .contact {
@@ -13,7 +15,7 @@
 }
 
 .contact-left-side {
-  //   border: 1px dashed black;
+  // border: 1px dashed white;
   width: 30%;
   margin-right: 3%;
 }
@@ -40,8 +42,32 @@
 }
 
 .contact-right-side {
-  //   border: 1px dashed black;
-  width: 60%;
+  // border: 1px dashed white;
+  width: 100%;
+}
+
+@media (max-width: $mobile) {
+  .contact-contact {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .contact-left-side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4%;
+  }
+
+  .contact-phone-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-left-text {
+    text-align: center;
+  }
 }
 
 // ContactImage
@@ -59,6 +85,16 @@
   background-size: cover;
   background-position: 0% 30%;
   // opacity: 0.7;
+}
+
+@media (max-width: $mobile) {
+  .contact-image {
+    margin-bottom: 4%;
+  }
+
+  .contact-image-img {
+    background-position: 59% 0%;
+  }
 }
 
 // ContactForm
@@ -102,4 +138,32 @@
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+@media (max-width: $mobile) {
+  .contact {
+    padding: 8% 4%;
+  }
+  .contact-name-input-div {
+    flex-direction: column;
+  }
+
+  .contact-input-name {
+    width: 100%;
+    margin-bottom: 6%;
+  }
+
+  .contact-input-name:last-of-type {
+    width: 100%;
+    margin-bottom: 0%;
+  }
+
+  .submit-button-wide {
+    display: none;
+  }
+
+  .contact-submit-btn-container {
+    display: flex;
+    justify-content: center;
+  }
 }
