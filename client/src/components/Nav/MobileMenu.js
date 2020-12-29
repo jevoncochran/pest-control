@@ -28,9 +28,13 @@ const MobileMenu = (props) => {
             </NavLink>
           </ListItem>
           <ListItem>
-            <NavLink className="nav-link" to="/appointment">
+            <a
+              className="nav-link"
+              href="https://booking-test-5ieia.appointlet.com"
+              target="_blank"
+            >
               Appointment
-            </NavLink>
+            </a>
           </ListItem>
           <ListItem>
             <NavLink className="nav-link" to="/services">

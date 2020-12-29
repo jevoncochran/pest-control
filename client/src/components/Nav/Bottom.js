@@ -35,9 +35,13 @@ const Bottom = () => {
         <NavLink className="nav-link" to="/about">
           ABOUT US
         </NavLink>
-        <NavLink className="nav-link" to="/appointment">
+        <a
+          href="https://booking-test-5ieia.appointlet.com"
+          className="nav-link"
+          target="_blank"
+        >
           APPOINTMENT
-        </NavLink>
+        </a>
         <NavLink className="nav-link" to="/services">
           SERVICES
         </NavLink>
