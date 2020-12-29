@@ -140,6 +140,10 @@ $mobile: 900px;
   text-transform: uppercase;
 }
 
+.contact-submit-btn-container {
+  display: none;
+}
+
 @media (max-width: $mobile) {
   .contact-form {
     padding: 8% 4%;
