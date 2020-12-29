@@ -39,6 +39,7 @@ const Bottom = () => {
           href="https://booking-test-5ieia.appointlet.com"
           className="nav-link"
           target="_blank"
+          rel="noopener noreferrer"
         >
           APPOINTMENT
         </a>
