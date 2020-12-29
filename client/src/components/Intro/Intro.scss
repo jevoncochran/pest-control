@@ -95,6 +95,10 @@ $mobile: 900px;
 }
 
 @media (max-width: $mobile) {
+  .intro {
+    margin-bottom: 10%;
+  }
+
   .intro-background-container {
     height: 80vh;
   }
