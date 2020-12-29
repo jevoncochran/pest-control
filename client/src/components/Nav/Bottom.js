@@ -58,7 +58,6 @@ const Bottom = () => {
         openDrawer={openDrawer}
         closeDrawer={closeDrawer}
         drawerOpen={drawerOpen}
-        style={{ width: "80%", border: "2px solid green" }}
       />
     </div>
   );
