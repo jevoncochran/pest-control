@@ -7,6 +7,12 @@ const Intro = () => {
   return (
     <div className="intro">
       <div className="intro-background-container">
+        {/* <div
+          className="intro-background-img"
+          style={{
+            backgroundImage: `url(${exterminator})`,
+          }}
+        ></div> */}
         <img
           className="intro-background-img"
           src={exterminator}
@@ -23,7 +29,12 @@ const Intro = () => {
         <div className="intro-contact-box-container">
           <div className="intro-contact-box"></div>
           <div className="intro-contact-box-text">
-            <p className="intro-contact-box-text-large">
+            <p
+              className="intro-contact-box-text-large"
+              style={{
+                textAlign: "center",
+              }}
+            >
               ALL YOUR PEST CONTROL NEEDS
             </p>
             <div className="intro-contact-box-number-div">

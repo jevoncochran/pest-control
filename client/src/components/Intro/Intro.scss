@@ -1,5 +1,9 @@
 $mobile: 900px;
 
+.intro {
+  width: 100%;
+}
+
 .intro-background-container {
   background-color: #011048;
   position: relative;
@@ -77,10 +81,10 @@ $mobile: 900px;
 }
 
 .intro-contact-box-number-div {
+  // border: 1px dashed white;
   display: flex;
   justify-content: center;
   text-align: center;
-  // border: 1px dashed white;
   align-items: center;
   width: 80%;
 }
@@ -91,16 +95,35 @@ $mobile: 900px;
 }
 
 @media (max-width: $mobile) {
+  .intro-background-container {
+    height: 80vh;
+  }
+
+  .intro-background-img {
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    // clip-path: inset(0 0 0 10%);
+  }
+
+  .intro-text-container {
+    width: 70%;
+  }
+
   .intro-slogan {
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
 
   .intro-btn {
-    height: 12px;
-    font-size: 5px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .intro-contact-box-text {
+    // border: 1px dashed white;
   }
 
   .intro-contact-box-text-large {
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 }
