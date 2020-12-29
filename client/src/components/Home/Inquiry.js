@@ -123,7 +123,6 @@ const Inquiry = () => {
               </div>
               <p className="home-inquiry-quality-text">Local Business</p>
             </div>
-            <hr class="home-inquiry-quality-divider" />
           </div>
         </div>
       </div>

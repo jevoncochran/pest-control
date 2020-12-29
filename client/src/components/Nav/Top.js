@@ -8,7 +8,7 @@ const Top = () => {
   return (
     <div className="nav-top">
       <div className="nav-top-contact-container">
-        <div className="nav-top-link-container">
+        <div className="nav-top-link-container nav-top-contact-link-container">
           <div className="nav-top-contact-icon">
             <AiTwotonePhone />
           </div>
@@ -18,7 +18,7 @@ const Top = () => {
             <span className="nav-top-contact-number">7915</span>
           </p>
         </div>
-        <div className="nav-top-link-container">
+        <div className="nav-top-link-container mobile-hide">
           <div className="nav-top-contact-icon">
             <HiOutlineMail />
           </div>
@@ -27,7 +27,7 @@ const Top = () => {
           </p>
         </div>
       </div>
-      <div className="nav-top-link-container nav-top-social-container">
+      <div className="nav-top-link-container nav-top-social-container mobile-hide">
         <FaFacebookF />
         <FaTwitter />
         <FaPinterest />

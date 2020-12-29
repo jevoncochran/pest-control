@@ -1,3 +1,5 @@
+$mobile: 900px;
+
 .nav {
   // border: 1px dashed black;
   height: 15vh;
@@ -57,6 +59,31 @@
   justify-content: space-between;
 }
 
+@media (max-width: $mobile) {
+  .mobile-hide {
+    display: none;
+  }
+
+  .nav-top-contact-container {
+    width: 100%;
+  }
+
+  .nav-top-contact-link-container {
+    // border: 1px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-top-contact-icon {
+    font-size: 1.5rem;
+  }
+
+  .nav-top-contact-number {
+    font-size: 0.7rem;
+  }
+}
+
 // Bottom
 
 .nav-bottom {
@@ -92,4 +119,28 @@
 
 .nav-link:hover {
   color: #f5931e;
+}
+
+.nav-bottom-hamburger-icon {
+  display: hidden;
+}
+
+@media (max-width: $mobile) {
+  .nav-bottom-logo-container {
+    // border: 1px dashed black;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  .nav-bottom-links {
+    display: none;
+  }
+
+  .nav-bottom-hamburger-icon {
+    // border: 1px dashed black;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+  }
 }
