@@ -32,6 +32,7 @@ const MobileMenu = (props) => {
               className="nav-link"
               href="https://booking-test-5ieia.appointlet.com"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Appointment
             </a>
