@@ -1,6 +1,7 @@
 import React from "react";
 import "./Nav.scss";
 import { NavLink } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Bottom = () => {
   return (
@@ -8,7 +9,7 @@ const Bottom = () => {
       <div className="nav-bottom-logo-container">
         Knowledgeable Pest Control
       </div>
-      <div className="nav-bottom-links">
+      <div className="nav-bottom-links mobile-hide">
         <NavLink className="nav-link" to="/">
           HOME
         </NavLink>
@@ -24,6 +25,9 @@ const Bottom = () => {
         <NavLink className="nav-link" to="/contact">
           CONTACT
         </NavLink>
+      </div>
+      <div className="nav-bottom-hamburger-icon">
+        <GiHamburgerMenu />
       </div>
     </div>
   );
