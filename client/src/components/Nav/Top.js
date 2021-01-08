@@ -1,37 +1,28 @@
 import React from "react";
 import "./Nav.scss";
+import { NavLink } from "react-router-dom";
 import { AiTwotonePhone } from "react-icons/ai";
-import { HiOutlineMail } from "react-icons/hi";
-import { FaFacebookF, FaTwitter, FaPinterest, FaVimeoV } from "react-icons/fa";
+import kpcLogo from "../../assets/images/kpc_logo.png";
 
 const Top = () => {
   return (
     <div className="nav-top">
-      <div className="nav-top-contact-container">
-        <div className="nav-top-link-container nav-top-contact-link-container">
-          <div className="nav-top-contact-icon">
-            <AiTwotonePhone />
-          </div>
-          <p className="nav-top-contact-text">
-            <span className="nav-top-contact-number">(586)</span>
-            <span className="nav-top-contact-number">553</span>
-            <span className="nav-top-contact-number">7915</span>
-          </p>
+      <NavLink to="/" className="nav-top-logo-container">
+        <div>
+          <img
+            className="nav-top-logo"
+            src={kpcLogo}
+            alt="Knowledgeable Pest Control logo"
+          />
         </div>
-        <div className="nav-top-link-container mobile-hide">
-          <div className="nav-top-contact-icon">
-            <HiOutlineMail />
-          </div>
-          <p className="nav-top-contact-text">
-            knowledgeablepestcontrol@yahoo.com
-          </p>
+      </NavLink>
+      <div className="nav-top-contact-div">
+        <div className="nav-top-contact-icon">
+          <AiTwotonePhone />
         </div>
-      </div>
-      <div className="nav-top-link-container nav-top-social-container mobile-hide">
-        <FaFacebookF />
-        <FaTwitter />
-        <FaPinterest />
-        <FaVimeoV />
+        <span className="nav-top-contact-number">(586)</span>
+        <span className="nav-top-contact-number">553</span>
+        <span className="nav-top-contact-number">7915</span>
       </div>
     </div>
   );

@@ -25,11 +25,8 @@ const Bottom = () => {
 
   return (
     <div className="nav-bottom">
-      <div className="nav-bottom-logo-container">
-        Knowledgeable Pest Control
-      </div>
       <div className="nav-bottom-links mobile-hide">
-        <NavLink className="nav-link" to="/">
+        <NavLink to="/" className="nav-link">
           HOME
         </NavLink>
         <NavLink className="nav-link" to="/about">
@@ -58,7 +55,6 @@ const Bottom = () => {
         openDrawer={openDrawer}
         closeDrawer={closeDrawer}
         drawerOpen={drawerOpen}
-        style={{ width: "80%", border: "2px solid green" }}
       />
     </div>
   );

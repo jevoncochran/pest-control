@@ -8,7 +8,7 @@ $mobile: 900px;
 
 .about-img-background {
   // border: 2px solid red;
-  background-color: #011048;
+  background-color: #000;
   height: 60vh;
   position: relative;
 }
@@ -19,7 +19,7 @@ $mobile: 900px;
   //   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 58%;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .about-img-text-container {
@@ -47,10 +47,10 @@ $mobile: 900px;
 .about-text-services-container {
   width: 35%;
   height: 28vh;
-  background-color: #011048;
-  border: 2px solid #f5931e;
+  background-color: #000;
+  border: 2px solid #aff719;
   border-radius: 6px;
-  color: #fff;
+  color: #aff719;
   position: absolute;
   left: 10%;
   bottom: -18%;
@@ -128,7 +128,7 @@ $mobile: 900px;
   display: flex;
   // border: 1px dashed black;
   margin-top: 10%;
-  background-color: #011048;
+  background-color: #000;
   justify-content: center;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -138,7 +138,7 @@ $mobile: 900px;
 .about-service-area-headline {
   // border: 1px dashed white;
   font-size: 4rem;
-  color: #fff;
+  color: #aff719;
   text-transform: uppercase;
   width: 20%;
   margin-right: 5%;
@@ -149,7 +149,7 @@ $mobile: 900px;
 
 .about-servive-area-img {
   height: 50vh;
-  border: 2px solid #f5931e;
+  border: 2px solid #aff719;
   border-radius: 6px;
 }
 

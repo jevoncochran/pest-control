@@ -14,8 +14,8 @@ $mobile: 900px;
   padding-right: 15%;
   display: flex;
   align-items: center;
-  color: #fff;
-  background-color: #011048;
+  color: #aff719;
+  background-color: #000;
 }
 
 .home-inquiry-sub-container {
@@ -63,6 +63,7 @@ $mobile: 900px;
   height: 4vh;
   border-radius: 0px;
   border: 1px solid #fff;
+  background-color: #aff719;
   padding: 1%;
   font-size: 1.5rem;
 }
@@ -81,10 +82,10 @@ $mobile: 900px;
 .home-inquiry-form-btn {
   width: 15%;
   height: 4vh;
-  background-color: #011048;
+  background-color: #aff719;
   border: 1px solid #fff;
   border-radius: 0px;
-  color: #fff;
+  color: #000;
   font-size: 1.5rem;
 }
 

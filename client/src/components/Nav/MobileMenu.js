@@ -7,29 +7,35 @@ import "./Nav.scss";
 
 const MobileMenu = (props) => {
   return (
-    <div className="nav-mobile-menu" style={{ width: "80% !important" }}>
+    <div className="nav-mobile-menu">
       <SwipeableDrawer
-        width="800px"
-        style={{ border: "1px solid black" }}
         open={props.drawerOpen}
         onClose={props.closeDrawer}
         onOpen={props.openDrawer}
         swipeAreaWidth={400}
       >
-        <List style={{ width: "100px !important" }}>
+        <List
+          style={{
+            width: "200px",
+            backgroundColor: "#011048",
+            height: "100vh",
+            border: "2px solid #f5931e",
+            borderLeft: "none",
+          }}
+        >
           <ListItem>
-            <NavLink className="nav-link" to="/">
+            <NavLink className="nav-link mobile-nav-link" to="/">
               Home
             </NavLink>
           </ListItem>
           <ListItem>
-            <NavLink className="nav-link" to="/about">
+            <NavLink className="nav-link mobile-nav-link" to="/about">
               About Us
             </NavLink>
           </ListItem>
           <ListItem>
             <a
-              className="nav-link"
+              className="nav-link mobile-nav-link"
               href="https://booking-test-5ieia.appointlet.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -38,12 +44,12 @@ const MobileMenu = (props) => {
             </a>
           </ListItem>
           <ListItem>
-            <NavLink className="nav-link" to="/services">
+            <NavLink className="nav-link mobile-nav-link" to="/services">
               Services
             </NavLink>
           </ListItem>
           <ListItem>
-            <NavLink className="nav-link" to="/contact">
+            <NavLink className="nav-link mobile-nav-link" to="/contact">
               Contact
             </NavLink>
           </ListItem>

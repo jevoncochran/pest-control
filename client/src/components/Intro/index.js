@@ -1,23 +1,23 @@
 import React from "react";
 import "./Intro.scss";
 import { AiTwotonePhone } from "react-icons/ai";
-import exterminator from "../../assets/images/exterminator.jpg";
+import exterminator2 from "../../assets/images/exterminator2.jpg";
 
 const Intro = () => {
   return (
     <div className="intro">
       <div className="intro-background-container">
-        {/* <div
+        <div
           className="intro-background-img"
           style={{
-            backgroundImage: `url(${exterminator})`,
+            backgroundImage: `url(${exterminator2})`,
           }}
-        ></div> */}
-        <img
+        ></div>
+        {/* <img
           className="intro-background-img"
-          src={exterminator}
+          src={exterminator2}
           alt="Knowledgeable Pest Control"
-        />
+        /> */}
         <div className="intro-text-container">
           <div className="intro-slogan-container">
             <p className="intro-slogan">The Brains Behind Pest Control</p>
