@@ -25,11 +25,8 @@ const Bottom = () => {
 
   return (
     <div className="nav-bottom">
-      <div className="nav-bottom-logo-container">
-        Knowledgeable Pest Control
-      </div>
       <div className="nav-bottom-links mobile-hide">
-        <NavLink className="nav-link" to="/">
+        <NavLink to="/" className="nav-link">
           HOME
         </NavLink>
         <NavLink className="nav-link" to="/about">

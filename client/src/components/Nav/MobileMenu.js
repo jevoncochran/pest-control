@@ -20,6 +20,7 @@ const MobileMenu = (props) => {
             backgroundColor: "#011048",
             height: "100vh",
             border: "2px solid #f5931e",
+            borderLeft: "none",
           }}
         >
           <ListItem>

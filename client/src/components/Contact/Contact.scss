@@ -5,8 +5,8 @@ $mobile: 900px;
 .contact {
   //   border: 1px dashed black;
   width: 100%;
-  background-color: #011048;
-  color: #fff;
+  background-color: #000;
+  color: #aff719;
 }
 
 .contact-contact {
@@ -75,8 +75,8 @@ $mobile: 900px;
 .contact-image {
   width: 100%;
   height: 40vh;
-  border: 2px solid #f5931e;
-  background-color: #011048;
+  border: 2px solid #aff719;
+  background-color: #000;
 }
 
 .contact-image-img {
@@ -118,6 +118,9 @@ $mobile: 900px;
   width: 100%;
   padding-left: 1%;
   font-size: 1.8rem;
+  background-color: #aff719;
+  border: 1px solid #fff;
+  color: #000;
 }
 
 .contact-input-name {
@@ -131,9 +134,9 @@ $mobile: 900px;
 
 .contact-submit-btn {
   height: 5vh;
-  background-color: #011048;
+  background-color: #aff719;
   border: 2px solid white;
-  color: #fff;
+  color: #000;
   width: 20%;
   font-size: 1.5rem;
   font-weight: 700;
